@@ -425,7 +425,7 @@ elif mode == "N3":
             #track_color = "Green",
 
         #)
-         new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
+        new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
 
         #If the toggle changed, update state and rerun
         if new_mode != prev_mode:
