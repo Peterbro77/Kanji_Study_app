@@ -14,7 +14,7 @@ An interactive web app built with Streamlit to help learners practice and reinfo
 
 ## 📂 Folder Structure
 
-kanji-study-app/
+kanji-study-app/ <br/>
 ├── app_deploy.py <br/>
 ├── data/ <br/>
 │ └── N2_kanji.csv <br/>
