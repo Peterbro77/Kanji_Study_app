@@ -414,20 +414,20 @@ elif mode == "N3":
         prev_mode = st.session_state.get("filtered_mode", False)
 
         # Bookmark toggle
-        from streamlit_toggle import st_toggle_switch
-        new_mode = st_toggle_switch(
-            label = "🔖 View bookmarked Kanji",
-            key = "Bookmarked",
-            default_value = False,
-            label_after = False,
-            inactive_color = "#8D0909",
-            active_color = "White",
-            track_color = "Green",
+        #from streamlit_toggle import st_toggle_switch
+        #new_mode = st_toggle_switch(
+         #   label = "🔖 View bookmarked Kanji",
+          #  key = "Bookmarked",
+           # default_value = False,
+            #label_after = False,
+            #inactive_color = "#8D0909",
+            #active_color = "White",
+            #track_color = "Green",
 
-        )
-        # new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
+        #)
+         new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
 
-        # If the toggle changed, update state and rerun
+        #If the toggle changed, update state and rerun
         if new_mode != prev_mode:
             st.session_state.filtered_mode = new_mode
             st.session_state.filtered_index = 0
@@ -661,20 +661,20 @@ elif mode == "N4":
         prev_mode = st.session_state.get("filtered_mode", False)
 
         # Bookmark toggle
-        from streamlit_toggle import st_toggle_switch
-        new_mode = st_toggle_switch(
-            label = "🔖 View bookmarked Kanji",
-            key = "Bookmarked",
-            default_value = False,
-            label_after = False,
-            inactive_color = "#8D0909",
-            active_color = "White",
-            track_color = "Green",
+        #from streamlit_toggle import st_toggle_switch
+        #new_mode = st_toggle_switch(
+         #   label = "🔖 View bookmarked Kanji",
+         #   key = "Bookmarked",
+         #  default_value = False,
+         #   label_after = False,
+         #   inactive_color = "#8D0909",
+         #   active_color = "White",
+         #   track_color = "Green",
 
-        )
+        #)
 
         # Render the checkbox
-        # new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
+         new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
 
         # If the toggle changed, update state and rerun
         if new_mode != prev_mode:
@@ -911,20 +911,20 @@ if mode == "N5":
         prev_mode = st.session_state.get("filtered_mode", False)
 
         # Bookmark toggle
-        from streamlit_toggle import st_toggle_switch
-        new_mode = st_toggle_switch(
-            label = "🔖 View bookmarked Kanji",
-            key = "Bookmarked",
-            default_value = False,
-            label_after = False,
-            inactive_color = "#8D0909",
-            active_color = "White",
-            track_color = "Green",
+        #from streamlit_toggle import st_toggle_switch
+        #new_mode = st_toggle_switch(
+         #   label = "🔖 View bookmarked Kanji",
+         #   key = "Bookmarked",
+         #   default_value = False,
+         #   label_after = False,
+         #   inactive_color = "#8D0909",
+         #   active_color = "White",
+         #   track_color = "Green",
 
-        )
+        #)
 
         # Render the checkbox
-        # new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
+         new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
 
         # If the toggle changed, update state and rerun
         if new_mode != prev_mode:
@@ -1161,20 +1161,20 @@ elif mode == "N2":
         prev_mode = st.session_state.get("filtered_mode", False)
 
         # Bookmark toggle
-        from streamlit_toggle import st_toggle_switch
-        new_mode = st_toggle_switch(
-            label = "🔖 View bookmarked Kanji",
-            key = "Bookmarked",
-            default_value = False,
-            label_after = False,
-            inactive_color = "#8D0909",
-            active_color = "White",
-            track_color = "Green",
+        #from streamlit_toggle import st_toggle_switch
+        #new_mode = st_toggle_switch(
+        #    label = "🔖 View bookmarked Kanji",
+        #    key = "Bookmarked",
+        #    default_value = False,
+        #    label_after = False,
+        #    inactive_color = "#8D0909",
+        #    active_color = "White",
+        #    track_color = "Green",
 
-        )
+        #)
 
         # Render the checkbox
-        # new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
+         new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
 
         # If the toggle changed, update state and rerun
         if new_mode != prev_mode:
