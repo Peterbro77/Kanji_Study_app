@@ -15,16 +15,16 @@ An interactive web app built with Streamlit to help learners practice and reinfo
 ## 📂 Folder Structure
 
 kanji-study-app/
-├── app_deploy.py
-├── data/
-│ └── N2_kanji.csv
-  └── N3_kanji.csv
-  └── N4_kanji.csv
-  └── N5_kanji.csv
-├── images/
-│ └── kanji_icon.png
-├── requirements.txt
-└── README.md
+├── app_deploy.py <br/>
+├── data/ <br/>
+│ └── N2_kanji.csv <br/>
+  └── N3_kanji.csv <br/>
+  └── N4_kanji.csv <br/>
+  └── N5_kanji.csv <br/>
+├── images/ <br/>
+│ └── kanji_icon.png <br/>
+├── requirements.txt <br/>
+└── README.md <br/>
 
 ## Acknowledgements
 -JLPT Kanji datasets sourced from public datasets
