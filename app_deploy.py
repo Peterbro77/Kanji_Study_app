@@ -674,7 +674,7 @@ elif mode == "N4":
         #)
 
         # Render the checkbox
-         new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
+        new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
 
         # If the toggle changed, update state and rerun
         if new_mode != prev_mode:
@@ -924,7 +924,7 @@ if mode == "N5":
         #)
 
         # Render the checkbox
-         new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
+        new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
 
         # If the toggle changed, update state and rerun
         if new_mode != prev_mode:
@@ -1174,7 +1174,7 @@ elif mode == "N2":
         #)
 
         # Render the checkbox
-         new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
+        new_mode = st.checkbox("🔖 View Bookmarked Only", value=prev_mode)
 
         # If the toggle changed, update state and rerun
         if new_mode != prev_mode:
