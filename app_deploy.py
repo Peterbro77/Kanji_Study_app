@@ -334,7 +334,7 @@ elif mode == "N3":
 
         
         # Load kanji data
-        df = pd.read_csv("Data/N3_kanji.csv")
+        df = pd.read_csv("Data/N3_Kanji.csv")
 
         kanji_data = df.to_dict(orient="records")
 
@@ -581,7 +581,7 @@ elif mode == "N4":
         index_key = f"index_N4"
         
         # Load kanji data
-        df = pd.read_csv("Data/N4_kanji.csv")
+        df = pd.read_csv("Data/N4_Kanji.csv")
 
         kanji_data = df.to_dict(orient="records")
 
@@ -831,7 +831,7 @@ if mode == "N5":
         index_key = f"index_N5"
 
         # Load kanji data
-        df = pd.read_csv("Data/N5_kanji.csv")
+        df = pd.read_csv("Data/N5_Kanji.csv")
 
         kanji_data = df.to_dict(orient="records")
 
@@ -1081,7 +1081,7 @@ elif mode == "N2":
         index_key = f"index_N2"
 
         # Load kanji data
-        df = pd.read_csv("Data/N2_kanji.csv")
+        df = pd.read_csv("Data/N2_Kanji.csv")
 
         kanji_data = df.to_dict(orient="records")
 
