@@ -283,7 +283,7 @@ if mode == "ようこそう":
         from io import BytesIO
 
         # Load and encode image
-        img = Image.open("Kanji_icon.png")
+        img = Image.open("Images/Kanji_icon.png")
         buffered = BytesIO()
         img.save(buffered, format="PNG")
         img_b64 = base64.b64encode(buffered.getvalue()).decode()
